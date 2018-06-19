@@ -1,5 +1,6 @@
 def square_array(array)
+  arr=[]
   array.map do |apple|
-    apple * apple
+    arr << apple**2
   end
 end
